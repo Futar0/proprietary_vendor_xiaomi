@@ -24,3 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
     vendor/xiaomi/mt6765-common/proprietary/product/vendor_overlay/28/lib/libpdx_default_transport.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/28/lib/libpdx_default_transport.so \
     vendor/xiaomi/mt6765-common/proprietary/product/vendor_overlay/28/lib/libmtk-ril.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/28/lib/libmtk-ril.so
+
+PRODUCT_PACKAGES += \
+    ImsService
