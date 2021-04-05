@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/lib/libaudio_param_parser-sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio_param_parser-sys.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiotoolkit.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcomutils.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libgui_dandelion.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libgui_dandelion.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_audio_jni.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_support_jni.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libem_usb_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_usb_jni.so \
@@ -52,7 +53,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/vendor.mediatek.hardware.audio@5.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.audio@5.1.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so
+    vendor/xiaomi/mt6765-common/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/vndk-29/libgui_dandelion.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-29/libgui_dandelion.so
 
 PRODUCT_PACKAGES += \
     EngineerMode \
