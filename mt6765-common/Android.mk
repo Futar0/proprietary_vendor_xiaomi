@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter cactus cereus,$(TARGET_DEVICE)),)
+ifneq ($(filter cactus cereus certus,$(TARGET_DEVICE)),)
 
 endif
