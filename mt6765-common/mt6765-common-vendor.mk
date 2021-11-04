@@ -51,7 +51,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/vendor.mediatek.hardware.audio@5.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.audio@5.1.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so
+    vendor/xiaomi/mt6765-common/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/xiaomi/mt6765-common/proprietary/product/vendor_overlay/29/lib/vendor.goodix.hardware.cap.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/vendor.goodix.hardware.cap.biometrics.fingerprint@2.1.so
 
 PRODUCT_PACKAGES += \
     EngineerMode \
